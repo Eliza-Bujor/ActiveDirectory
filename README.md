@@ -7,18 +7,18 @@ The project involves building a home lab that will benefit both the blue team an
 <h2>Step 1: Build a Logical Diagram </h2>
 
 <h2>Step 2: Install Virtual Machines </h2>
-- <b>Windows Server</b>
-- <b>Windows 10</b>
-- <b>Kali Linux</b>
-- <b>Splunk using Ubuntu Server</b>
+- <b>Windows Server</b> <br>
+- <b>Windows 10</b> <br>
+- <b>Kali Linux</b> <br>
+- <b>Splunk using Ubuntu Server</b> <br>
 
 <h2>Step 3: Install & Configure Software </h2>
-- <b>Sysmon</b>
-- <b>Splunk</b>
+- <b>Sysmon</b> <br>
+- <b>Splunk</b> <br>
 
 <h2>Step 4: Configure Active Directory </h2>
 
 <h2>Step 5: Generate Telemetry with Kali Linux & ART </h2>
-- <b>Kali Linux</b>
-- <b>Sysmon</b>
-- <b>Install Atomic Red Team</b>
+- <b>Kali Linux</b> <br>
+- <b>Sysmon</b> <br>
+- <b>Install Atomic Red Team</b> <br>
