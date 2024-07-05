@@ -7,8 +7,10 @@ The project involves building a home lab that will benefit both the blue team an
 <h2>Step 1: Build a Logical Diagram </h2>
 - To create the diagram I have used the website app.diagrams.net which has build in shapes that I have used when creating the diagram. <br />
 The diagram contains:<br />
-- Splunk Server <br />
-- Active Directory Server <br />
+<ol>
+  <li>Splunk Server</li>
+  <li>Active Directory Server</li>
+</ol>
 <br />
 <p align="center">
 <img src="https://i.imgur.com/AO7JaMr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
