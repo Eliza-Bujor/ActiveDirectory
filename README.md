@@ -9,9 +9,9 @@ The project involves building a home lab that will benefit both the blue team an
   <li>To create the diagram, I used the website app.diagrams.net, which offers built-in shapes that I utilized in the process.</li>
   <li>Splunk Universal Forwarder on the Active Directory Server and Target Machine - will allow me to send data to the Splunk Server.</li>
   <li>Sysmon on the Active Directory Server and Target Machine- to collect telemetry on the server and send it over to Splunk.</li>
-  <li>Green dotted line from Target Machine to the Splunk Server - highlights the fact that data (logs) is being forwarded to the Splunk Server</li>
-  <li>Green dotted line from Active Directory Server to the Splunk Server - highlights the fact that data (logs) is being forwarded to the Splunk Server</li>
-  <li>Atomic Red Team - will help to generate data. This will be installed on the Target Machine</li>
+  <li>Green dotted line from Target Machine to the Splunk Server - highlights the fact that data (logs) is being forwarded to the Splunk Server.</li>
+  <li>Green dotted line from Active Directory Server to the Splunk Server - highlights the fact that data (logs) is being forwarded to the Splunk Server.</li>
+  <li>Atomic Red Team - will help to generate data. This will be installed on the Target Machine.</li>
 </ol> <br /> 
 The diagram contains:<br />
 <ul>
