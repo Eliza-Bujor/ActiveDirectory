@@ -5,7 +5,10 @@ The project involves building a home lab that will benefit both the blue team an
 <br />
 
 <h2>Step 1: Build a Logical Diagram </h2>
-
+<p align="center">
+<img src="https://i.imgur.com/AO7JaMr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+  
 <h2>Step 2: Install Virtual Machines </h2>
 - <b>Windows Server</b> <br>
 - <b>Windows 10</b> <br>
