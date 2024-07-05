@@ -12,6 +12,11 @@ The diagram contains:<br />
 <ul>
   <li>Splunk Server</li>
   <li>Active Directory Server</li>
+  <li>Target Machine using Windows 10 - Blue colour</li>
+  <li>Attacker Machine using Kali Linux - Red colour</li>
+  <li>Switch</li>
+  <li>Router</li>
+  <li>Cloud - Representing the Internet</li>
 </ul>
 <br />
 <p align="center">
