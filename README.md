@@ -6,7 +6,11 @@ The project involves building a home lab that will benefit both the blue team an
 
 <h2>Step 1: Build a Logical Diagram </h2>
 <ol>
-  <li>To create the diagram I have used the website app.diagrams.net which has build in shapes that I have used when creating the diagram.</li>
+  <li>To create the diagram, I used the website app.diagrams.net, which offers built-in shapes that I utilized in the process.</li>
+  <li>Splunk Universal Forwarder on the Active Directory Server and Target Machine - will allow me to send data to the Splunk Server.</li>
+  <li>Sysmon on the Active Directory Server and Target Machine- to collect telemetry on the server and send it over to Splunk.</li>
+  <li>Green dotted line from Target Machine to the Splunk Server - highlights the fact that data is being forwarded to the Splunk Server</li>
+  <li>Green dotted line from Active Directory Server to the Splunk Server - highlights the fact that data is being forwarded to the Splunk Server</li>
 </ol> <br /> 
 The diagram contains:<br />
 <ul>
