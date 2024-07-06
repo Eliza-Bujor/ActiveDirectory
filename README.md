@@ -53,10 +53,12 @@ Steps: <br />
     <img src="https://i.imgur.com/nd17Dn7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
     b. Kali Linux<br /><p align="center">
-    <img src="https://i.imgur.com/G7qFMdP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/RbGf5Ju.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
     c. Windows Server 2022 <br /><p align="center">
-    <img src="https://i.imgur.com/G7qFMdP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <img src="https://i.imgur.com/NTJigBn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <br />
+    <img src="https://i.imgur.com/DgMWyQr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
     d. Ubuntu 22.04 <br /><p align="center">
     <img src="https://i.imgur.com/G7qFMdP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
