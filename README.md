@@ -24,7 +24,7 @@ Steps: <br />
 </ol> <br /> 
 The diagram contains:<br />
 <ul>
-  <li>Splunk Server - Ubuntu 22.04</li>
+  <li>Splunk Server - Ubuntu 24.04</li>
   <li>Active Directory Server - Windows Server 2022</li>
   <li>Target Machine (Blue Colour) - Windows 10 Pro</li>
   <li>Attacker Machine (Red Colour) - Kali Linux</li>
@@ -44,7 +44,7 @@ OS to be installed:<br />
   <li>Windows Server 2022</li>
   <li>Windows 10 Pro</li>
   <li>Kali Linux</li>
-  <li>Ubuntu 22.04</li>
+  <li>Ubuntu 24.04</li>
 </ul>
 Steps: <br />
 <ol>
@@ -66,8 +66,10 @@ Steps: <br />
     <br />
     <img src="https://i.imgur.com/C1zRs3h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
-    d. Ubuntu 22.04 <br /><p align="center">
-    <img src="https://i.imgur.com/G7qFMdP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    d. Ubuntu 24.04 <br />
+    <p align="left"> * In comparison to the other OS, I have set the Ubuntu Server to contain 8GB of RAM, 2 Processors and a Disk Size of 100GB as this represents the Splunk Server and it will ingest a lot of data (from AD Server and Target Machine). <br />
+    <p align="center">
+    <img src="https://i.imgur.com/xgdes8W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
   <li></li>
 </ol>
