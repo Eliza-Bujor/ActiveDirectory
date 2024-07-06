@@ -52,13 +52,13 @@ Steps: <br />
     a. Windows 10 Pro<br /><p align="center">
     <img src="https://i.imgur.com/nd17Dn7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
-    <p align="center">
+    b. Kali Linux<br /><p align="center">
     <img src="https://i.imgur.com/G7qFMdP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
-    <p align="center">
+    c. Windows Server 2022 <br /><p align="center">
     <img src="https://i.imgur.com/G7qFMdP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
-    <p align="center">
+    d. Ubuntu 22.04 <br /><p align="center">
     <img src="https://i.imgur.com/G7qFMdP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
   <li></li>
