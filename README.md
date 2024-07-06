@@ -60,8 +60,8 @@ Steps: <br />
     <br />
     <img src="https://i.imgur.com/DgMWyQr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
-      I have selected the 2nd option as it will offer a Desktop mode experience rather than a CLI.
-      As the goal is to perform a simple active directory lab, there is no need to download the Datacentre version as it contains advanced features and can be useful if to host many virtual machines on it.
+      I have selected the 2nd option as it will offer a Desktop mode experience rather than a CLI. <br />
+      As the goal is to perform a simple active directory lab, there is no need to download the Datacentre version as it contains advanced features and can be useful if to host many virtual machines on it.<br />
     <img src="https://i.imgur.com/a68sHJG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
     <img src="https://i.imgur.com/C1zRs3h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
