@@ -26,7 +26,7 @@ The diagram contains:<br />
 <ul>
   <li>Splunk Server - Ubuntu 22.04</li>
   <li>Active Directory Server - Windows Server 2022</li>
-  <li>Target Machine (Blue Colour) - Windows 10</li>
+  <li>Target Machine (Blue Colour) - Windows 10 Pro</li>
   <li>Attacker Machine (Red Colour) - Kali Linux</li>
   <li>Switch</li>
   <li>Router</li>
@@ -42,14 +42,14 @@ The diagram contains:<br />
 OS to be installed:<br />
 <ul>
   <li>Windows Server 2022</li>
-  <li>Windows 10</li>
+  <li>Windows 10 Pro</li>
   <li>Kali Linux</li>
   <li>Ubuntu 22.04</li>
 </ul>
 Steps: <br />
 <ol>
   <li>Download the ISO files of the OS mentioned above.</li>
-    <p align="center">
+    a. Windows 10 Pro<br /><p align="center">
     <img src="https://i.imgur.com/nd17Dn7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
     <p align="center">
