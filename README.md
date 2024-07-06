@@ -15,10 +15,10 @@ The project involves building a home lab that will benefit both the blue team an
 </ol> <br /> 
 The diagram contains:<br />
 <ul>
-  <li>Splunk Server</li>
-  <li>Active Directory Server</li>
-  <li>Target Machine using Windows 10 - Blue colour</li>
-  <li>Attacker Machine using Kali Linux - Red colour</li>
+  <li>Splunk Server - Ubuntu 22.04</li>
+  <li>Active Directory Server - Windows Server 2022</li>
+  <li>Target Machine (Blue Colour) - Windows 10</li>
+  <li>Attacker Machine (Red Colour) - Kali Linux</li>
   <li>Switch</li>
   <li>Router</li>
   <li>Cloud - Representing the Internet</li>
