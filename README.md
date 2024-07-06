@@ -56,11 +56,11 @@ Steps: <br />
     <img src="https://i.imgur.com/RbGf5Ju.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
     c. Windows Server 2022 <br /><p align="center">
-      I have selected the 2nd option as it will offer a Desktop mode experience rather than a CLI.
     <img src="https://i.imgur.com/NTJigBn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
     <img src="https://i.imgur.com/DgMWyQr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
+      I have selected the 2nd option as it will offer a Desktop mode experience rather than a CLI.
     <img src="https://i.imgur.com/a68sHJG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
     <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
