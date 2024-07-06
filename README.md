@@ -9,7 +9,7 @@ Active Directory
   <li>Active Directory Domain Services represents database that contains objects (users, computers, groups, etc) and those objects will contain attributes (information about the object).</li>
   <li>Active Directory Domain Services (AD DS) should be installed, and then be promoted to Domain Controller (DC) in order to use Active Directory.</li>
   <li>DC will grant us the permission to perform authentication using the protocol called Kerberos.</li>
-</ul> <br />
+</ul>
 
 
 <h2>Step 1: Build a Logical Diagram </h2>
@@ -38,10 +38,13 @@ The diagram contains:<br />
 
   
 <h2>Step 2: Install Virtual Machines </h2>
-- <b>Windows Server 2022</b> <br>
-- <b>Windows 10</b> <br>
-- <b>Kali Linux</b> <br>
-- <b>Ubuntu 22.04</b> <br>
+<ul>
+  <li>Windows Server 2022</li>
+  <li>Windows 10</li>
+  <li>Kali Linux</li>
+  <li>Ubuntu 22.04</li>
+</ul>
+
 <ol>
   <li>Download the ISO files of the OS mentioned above.</li>
   <li></li>
