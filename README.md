@@ -2,8 +2,14 @@
 
 <h2>Description</h2>
 The project involves building a home lab that will benefit both the blue team and general IT. I will demonstrate the step-by-step process of creating my own Active Directory environment, which will aid in understanding IT administration and the workings of a domain. Additionally, I will set up a standalone Splunk instance to ingest events from the Windows server hosting the Active Directory and the target Windows machine. At the end of the project, I will use Kali Linux as the attacking machine to perform a brute force attack, observing the generated telemetry, and also utilize Atomic Red Team.
-<br />
-
+<br /><br />
+Active Directory
+<ul>
+  <li>Active Directory represents database that contains users, computers, groups, etc.</li>
+  <li>Active Directory Domain Services represents database that contains objects (users, computers, groups, etc) and those objects will contain attributes (information about the object).</li>
+  <li>Active Directory Domain Services (AD DS) should be installed, and then be promoted to Domain Controller (DC) in order to use Active Directory.</li>
+  <li>DC will grant us the permission to perform authentication using the protocol called Kerberos.</li>
+</ul>
 <h2>Step 1: Build a Logical Diagram </h2>
 <ol>
   <li>To create the diagram, I used the website app.diagrams.net, which offers built-in shapes that I utilized in the process.</li>
