@@ -67,9 +67,13 @@ Steps: <br />
     <img src="https://i.imgur.com/C1zRs3h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
     d. Ubuntu 24.04 <br />
-    <p align="left"> * In comparison to the other OS, I have set the Ubuntu Server to contain 8GB of RAM, 2 Processors and a Disk Size of 100GB as this represents the Splunk Server and it will ingest a lot of data (from AD Server and Target Machine). <br />
+    <p align="left"> * In comparison to the other OS, I have set the Ubuntu Server to contain 8GB of RAM, 2 Processors and a Disk Size of 100GB as this represents the Splunk Server and it will ingest a lot of data (from AD Server and Target Machine) and I will be running searches on it. <br />
     <p align="center">
     <img src="https://i.imgur.com/xgdes8W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <br />
+    <p align="left"> * This command will update and upgrade all the repositories. <br />
+    <p align="center">
+    <img src="https://i.imgur.com/dx7jPjn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
   <li></li>
 </ol>
