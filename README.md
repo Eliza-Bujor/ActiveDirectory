@@ -13,6 +13,7 @@ Active Directory
 
 
 <h2>Step 1: Build a Logical Diagram </h2>
+Steps: <br />
 <ol>
   <li>To create the diagram, I used the website app.diagrams.net, which offers built-in shapes that I utilized in the process.</li>
   <li>Splunk Universal Forwarder on the Active Directory Server and Target Machine - will allow me to send data to the Splunk Server.</li>
@@ -44,7 +45,7 @@ The diagram contains:<br />
   <li>Kali Linux</li>
   <li>Ubuntu 22.04</li>
 </ul>
-
+Steps: <br />
 <ol>
   <li>Download the ISO files of the OS mentioned above.</li>
   <li></li>
