@@ -71,7 +71,9 @@ Steps: <br />
     <p align="center">
     <img src="https://i.imgur.com/xgdes8W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
-    <p align="left"> * This command will update and upgrade all the repositories. <br />
+    <p align="left"> 
+      * Command: sudo apt-get update && sudo apt-get upgrade -y <br />
+      * This command will update and upgrade all the repositories. <br />
     <p align="center">
     <img src="https://i.imgur.com/dx7jPjn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
