@@ -39,6 +39,7 @@ The diagram contains:<br />
 
   
 <h2>Step 2: Install Virtual Machines </h2>
+OS to be installed:<br />
 <ul>
   <li>Windows Server 2022</li>
   <li>Windows 10</li>
@@ -51,13 +52,28 @@ Steps: <br />
   <li></li>
 </ol>
 
+
 <h2>Step 3: Install & Configure Software </h2>
-- <b>Sysmon</b> <br>
-- <b>Splunk</b> <br>
+Software to be installed: <br />
+<ul>
+  <li>Sysmon</li>
+  <li>Splunk</li>
+</ul>
+Steps: <br />
+<ol>
+  <li></li>
+</ol>
+
 
 <h2>Step 4: Configure Active Directory </h2>
+Steps: <br />
+<ol>
+  <li></li>
+</ol>
+
 
 <h2>Step 5: Generate Telemetry with Kali Linux & ART </h2>
+
 - <b>Kali Linux</b> <br>
 - <b>Sysmon</b> <br>
 - <b>Install Atomic Red Team</b> <br>
