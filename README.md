@@ -49,7 +49,7 @@ OS to be installed:<br />
 Steps: <br />
 <ol>
   <li>Download the ISO files of the OS mentioned above.</li>
-    a. Windows 10 Pro<br /><p align="center">
+    <p align="center">a. Windows 10 Pro<br />
     <img src="https://i.imgur.com/nd17Dn7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
     <br />
     b. Kali Linux<br /><p align="center">
