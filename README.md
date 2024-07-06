@@ -49,6 +49,18 @@ OS to be installed:<br />
 Steps: <br />
 <ol>
   <li>Download the ISO files of the OS mentioned above.</li>
+    <p align="center">
+    <img src="https://i.imgur.com/nd17Dn7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <br />
+    <p align="center">
+    <img src="https://i.imgur.com/G7qFMdP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <br />
+    <p align="center">
+    <img src="https://i.imgur.com/G7qFMdP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <br />
+    <p align="center">
+    <img src="https://i.imgur.com/G7qFMdP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <br />
   <li></li>
 </ol>
 
