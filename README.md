@@ -9,7 +9,9 @@ Active Directory
   <li>Active Directory Domain Services represents database that contains objects (users, computers, groups, etc) and those objects will contain attributes (information about the object).</li>
   <li>Active Directory Domain Services (AD DS) should be installed, and then be promoted to Domain Controller (DC) in order to use Active Directory.</li>
   <li>DC will grant us the permission to perform authentication using the protocol called Kerberos.</li>
-</ul>
+</ul> <br />
+
+
 <h2>Step 1: Build a Logical Diagram </h2>
 <ol>
   <li>To create the diagram, I used the website app.diagrams.net, which offers built-in shapes that I utilized in the process.</li>
@@ -33,12 +35,17 @@ The diagram contains:<br />
 <p align="center">
 <img src="https://i.imgur.com/AO7JaMr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+
   
 <h2>Step 2: Install Virtual Machines </h2>
-- <b>Windows Server</b> <br>
+- <b>Windows Server 2022</b> <br>
 - <b>Windows 10</b> <br>
 - <b>Kali Linux</b> <br>
-- <b>Splunk using Ubuntu Server</b> <br>
+- <b>Ubuntu 22.04</b> <br>
+<ol>
+  <li>Download the ISO files of the OS mentioned above.</li>
+  <li></li>
+</ol>
 
 <h2>Step 3: Install & Configure Software </h2>
 - <b>Sysmon</b> <br>
