@@ -88,7 +88,14 @@ Software to be installed: <br />
 </ul>
 Steps: <br />
 <ol>
-  <li></li>
+  <li>Setup NAT Network</li>
+  <ul>
+    <li>Set the network settings to NAT network to ensure that the virtual machines are set up to the same network and have internet access.</li>
+    <li>Click Tools -> Bullet points -> Network -> NAT Networks -> Create -> Set the IPv4 Prefix to the one set up in the diagram -> Apply</li>
+  </ul>
+  <p align="center">
+    <img src="https://i.imgur.com/JrSuq75.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <br />
 </ol>
 
 
