@@ -89,13 +89,21 @@ Software to be installed: <br />
 Steps: <br />
 <ol>
   <li>Setup NAT Network</li>
-  <ul>
-    <li>Set the network settings to NAT network to ensure that the virtual machines are set up to the same network and have internet access.</li>
-    <li>Click Tools -> Bullet points -> Network -> NAT Networks -> Create -> Set the IPv4 Prefix to the one set up in the diagram -> Apply</li>
-  </ul>
-  <p align="center">
-    <img src="https://i.imgur.com/JrSuq75.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-  <br />
+    <ul>
+      <li>Set the network settings to NAT network to ensure that the virtual machines are set up to the same network and have internet access.</li>
+      <li>Click Tools -> Bullet points -> Network -> NAT Networks -> Create -> Set the IPv4 Prefix to the one set up in the diagram -> Apply</li>
+    </ul>
+    <p align="center">
+      <img src="https://i.imgur.com/JrSuq75.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <br /> <p align="left">
+  <li>Change the machines network settings to NatNetwork</li>
+    <ul>
+      <li>Splunk -> Settings -> Network -> Change "Attached to" from NAT to NAT Network -> OK</li>
+    </ul>
+      <p align="center">
+        <img src="https://i.imgur.com/MPYDyiF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+      <br /> <p align="left">
+  <li></li>
 </ol>
 
 
