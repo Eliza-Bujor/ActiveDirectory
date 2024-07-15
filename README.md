@@ -105,7 +105,64 @@ Steps: <br />
       <br /> <p align="left">
   <li>Setup Splunk Server</li>
      <ul>
-        <li></li>
+        <li>On the diagram I setup the static IP to 192.168.10.0/24</li>
+        <li>Setp up a static IP on the Splunk server to reflect the diagram IP.</li>
+          <p align="center">
+            <img src="https://i.imgur.com/VJAFvgv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+          <br /> <p align="left">
+        <li>Set DHCP from true to no, as we don't want any DHCP as the server requires to have a set IP.</li>
+        <li>Add "addresses:[192.168.10.10/24]". This sets the IP address of the server.</li>
+        <li>Add "nameserver:   addresses:[8.8.8.8]". This contains the DNS IP that I want to set up.</li>
+        <li>Add "routes:   -to: default     via:192.168.10.1" which adds a default route through the gateway.</li>
+          <p align="center">
+            <img src="https://i.imgur.com/ZDBOZ1y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+          <br /> <p align="left">
+        <li>Configure the changes by running sudo netplan apply.</li>
+        <li>Use command "ip a" to check if the IP address has changed to the one I wanted.</li>
+        <li>Run ping command on google.com to check if the connection has been established with ip 8.8.8.8 - google ip address.</li>
+            <p align="center">
+              <img src="https://i.imgur.com/IiZAt7h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+            <br /> <p align="left">
+        <li>Create a splunk account on splunk.com.</li>
+        <li>Get the Splunk Enterprise free trial. Select Linux download and download the .deb file.</li>
+        <li>Install guest add-ons for virtual box.</li>
+              <p align="center">
+                <img src="https://i.imgur.com/00uBOGy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+              <br /> <p align="left">
+        <li>Click Devices -> Shared Folders -> Shared Folders settings</li>
+        <li>Create new folder</li>
+        <li>Reboot the machine by typing sudo reboot.</li>
+              <p align="center">
+                <img src="https://i.imgur.com/SrcEVTs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+              <br /> <p align="left">
+        <li>Add the user to the vbox SF group.</li>
+        <li>Type sudo adduser ad vboxsf.</li>
+        <li>Type sudo apt-get install virtualbox-guest-utils to install the guest utils.</li>
+        <li>Reboot the machine and repeat the process of adding the new user.</li>
+        <li>Create a new directory called share by typing mkdir share and mount it to the share directory.</li>
+        <li>This has give us access to the folder that is on my machine so I can start to download the splunk enterprise.</li>
+              <p align="center">
+                <img src="https://i.imgur.com/16H9AMs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+              <br /> <p align="left">
+              <p align="center">
+                <img src="https://i.imgur.com/myedkCl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+              <br /> <p align="left">
+        <li>Install Splunk Enterprise.</li>
+        <li>Move to the /opt/splunk.</li>
+        <li>All the users and groups belong to splunk. This means that it limits the permissions to that user.</li>
+        <li>Change into the user splunk by typing sudo -u splunk bash.</li>
+              <p align="center">
+                <img src="https://i.imgur.com/TVtOigY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+              <br /> <p align="left">
+        <li>Move to the directory called bin. There are the binaries files that splunk can use.</li>
+        <li>Start Splunk.</li>
+              <p align="center">
+                <img src="https://i.imgur.com/FlhedMg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+              <br /> <p align="left">
+        <li>Run the command "sudo ./splunk enable boot-start -user splunk" to make sure that Splunk starts up every time the virtual machine reboots on user splunk.</li>
+              <p align="center">
+                <img src="https://i.imgur.com/qNOVnBO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+              <br /> <p align="left">
      </ul>
 </ol>
 
