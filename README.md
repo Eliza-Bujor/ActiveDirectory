@@ -164,6 +164,10 @@ Steps: <br />
                 <img src="https://i.imgur.com/qNOVnBO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
               <br /> <p align="left">
      </ul>
+  <li>Install Splunk Universal Forwarder and Sysmon on Target Machine and Server</li>
+  <ul>
+    <li>The installation process is the same on both the target machine and server.</li>
+  </ul>
 </ol>
 
 
