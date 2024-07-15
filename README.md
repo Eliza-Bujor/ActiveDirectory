@@ -103,7 +103,10 @@ Steps: <br />
       <p align="center">
         <img src="https://i.imgur.com/MPYDyiF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
       <br /> <p align="left">
-  <li></li>
+  <li>Setup Splunk Server</li>
+     <ul>
+        <li></li>
+     </ul>
 </ol>
 
 
