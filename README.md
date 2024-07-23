@@ -164,7 +164,7 @@ Steps: <br />
                 <img src="https://i.imgur.com/qNOVnBO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
               <br /> <p align="left">
      </ul>
-  <li>Install Splunk Universal Forwarder and Sysmon on Target Machine and Server</li>
+  <li>Install Splunk Universal Forwarder and Sysmon on Target Machine and Active Directory Server</li>
   <ul>
     <li>The installation process is the same on both the target machine and server.</li> <br>
     <li>Rename the windows target machine to target-10 by going into settings -> About - > Rename.</li>
@@ -206,6 +206,28 @@ Steps: <br />
     <li>Open the notepad in admin version and write the following text that will guide the Splunk Forwarder to push events related to Application, Security, System over the Splunk Server.</li>
         <p align="center">
           <img src="https://i.imgur.com/wHhi9Ua.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+      <br /> <p align="left">
+    <li>Every time inputs.conf gets updated, the Splunk Universal Forwarder has to be restarted:</li>
+        <ul>
+          <li>Services -> Run as Administrator ->SplunkForwarder -> Log On -> select Local System account ->Aplly</li>
+          <li>SplunkForwarder -> Restart</li>
+        </ul>>
+  </ul>
+  <li>Finalise the splunk server configurations.</li>
+  <ul>
+    <li>Login into the splunk enterprise.</li>
+    <li>Settings -> Indexes</li>
+    <li>Because there is no endpoint index created, I had to create a new one called endpoint (considring that I previously setup the events to be sent oiver to an index called endpoint).</li>
+    <p align="center">
+          <img src="https://i.imgur.com/EyPM7G4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+      <br /> <p align="left">
+    <li>Enable Splunk Server to receive the data (Settings -> Forwarding and receiving -> Configure receiving -> New Receiving Port)</li>
+    <p align="center">
+          <img src="https://i.imgur.com/4PmjJOz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+      <br /> <p align="left">
+    <li>Check if the Splunk Server is receiving events.</li>
+    <p align="center">
+          <img src="https://i.imgur.com/cHtyaLx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
       <br /> <p align="left">
   </ul>
 </ol>
