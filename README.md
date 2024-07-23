@@ -166,7 +166,16 @@ Steps: <br />
      </ul>
   <li>Install Splunk Universal Forwarder and Sysmon on Target Machine and Server</li>
   <ul>
-    <li>The installation process is the same on both the target machine and server.</li>
+    <li>The installation process is the same on both the target machine and server.</li> <br>
+    <li>Rename the windows target machine to target-10 by going into settings -> About - > Rename.</li>
+      <p align="center">
+          <img src="https://i.imgur.com/iR29LxK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+      <br /> <p align="left">
+    <li>Change the machine's IP address.</li>
+      <p align="center">
+          <img src="https://i.imgur.com/iR29LxK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+      <br /> <p align="left">
+    <li></li>
   </ul>
 </ol>
 
