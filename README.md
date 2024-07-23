@@ -173,9 +173,12 @@ Steps: <br />
       <br /> <p align="left">
     <li>Change the machine's IP address.</li>
       <p align="center">
-          <img src="https://i.imgur.com/iR29LxK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+          <img src="https://i.imgur.com/72mYwaJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
       <br /> <p align="left">
-    <li></li>
+        <p align="center">
+          <img src="https://i.imgur.com/g0cknLZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+      <br /> <p align="left">
+    <li>Test to check if we can access splunk</li>
   </ul>
 </ol>
 
