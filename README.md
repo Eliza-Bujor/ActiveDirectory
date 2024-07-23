@@ -178,7 +178,35 @@ Steps: <br />
         <p align="center">
           <img src="https://i.imgur.com/g0cknLZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
       <br /> <p align="left">
-    <li>Test to check if we can access splunk</li>
+    <li>Test to check if we can access splunk from the target machine by accessing the splunk's ip address followed by port 8000.</li>
+        <p align="center">
+          <img src="https://i.imgur.com/fPZF062.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+      <br /> <p align="left">
+    <li>Install Splunk Universal Forwarder from splunk.com website.</li>
+    <li>During the installation process the username allocated is "admin".</li>
+    <li>The Receiving Indexer IP address will be the Splunk Server that I created "192.168.10.10" and leave the default receiving port as 9997.</li>
+        <p align="center">
+          <img src="https://i.imgur.com/ea8LaEP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+      <br /> <p align="left">
+    <li>Download Sysmon by sysinternals.</li>
+    <li>The Sysmon configuration that I will be using is the one by olaf.</li>
+    <li>Select sysmonconfig.xml and download the raw version fo the file.</li>
+    <li>Run PowerShell admin version and run the following commands:</li>
+        <ul>
+          <li>Navigate to the folder that the Sysmon is.</li>
+          <li>Run Sysmon64 executable file.</li>
+          <li>The flag "-i" is used to specify a configuration file.</li>
+        </ul>
+    <p align="center">
+          <img src="https://i.imgur.com/HIlcQFI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+      <br /> <p align="left">
+    <li>Instruct the Splunk folder on what I want to send over to the Splunk server.</li>
+    <li>The file "inputs.conf" can be found by accessing the following path: C:\Program Files\SplunkUniversalForwareder\etc\system\default</li>
+    <li>Instead of copying the inputs.conf file, I have created a new one under the C:\Program Files\SplunkUniversalForwareder\etc\system\local path so that the default settings are the same.</li>
+    <li>Open the notepad in admin version and write the following text that will guide the Splunk Forwarder to push events related to Application, Security, System over the Splunk Server.</li>
+        <p align="center">
+          <img src="https://i.imgur.com/wHhi9Ua.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+      <br /> <p align="left">
   </ul>
 </ol>
 
