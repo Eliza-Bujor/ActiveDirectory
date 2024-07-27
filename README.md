@@ -236,7 +236,40 @@ Steps: <br />
 <h2>Step 4: Configure Active Directory </h2>
 Steps: <br />
 <ol>
-  <li></li>
+  <li>Set a static IP address of 192.168.10.7.</li>
+  <ul>
+    <li>Right click the network icon -> Open Network & Internet Settings -> Change adapter options -> Right click the ethernet interface -> Properties ->Internet Protocol Version 4 (TCP/IPv4) </li>
+      <p align="center">
+          <img src="https://i.imgur.com/lyqU0tI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+      <br /> <p align="left">
+    <li>Check the connectivity.</li>
+        <p align="center">
+          <img src="https://i.imgur.com/KqyoH3N.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+      <br /> <p align="left">
+  </ul>
+  <li>Install Active Directory.</li>
+  <ul>
+    <li>Manage -> Add roles and features -> Installation Type (Role Based) -> Active Directory Domain Services</li>
+  </ul>
+  <li>Promote Server to a domain controller by accessing the flag next to the manage (top right).</li>
+  <ul>
+    <li>Add a new forest(myad.local) -> Insert the password and leave everything as default</li>
+    <p align="center">
+          <img src="https://i.imgur.com/XD4CTjB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+      <br /> <p align="left">
+  </ul>
+  <li>Create users.</li>
+  <ul>
+    <li>Tools -> Active Directory Users and Computers -> myad.local -> Right click the domain -> New -> Organisational Unit -> Name it as IT.</li>
+    <li>IT folder -> New -> User.</li>
+    <p align="center">
+          <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+      <br /> <p align="left">
+  </ul>
+  <li>Add the Target machine to the created domain (myad.local) and authenticate with the new user (Jason Kit).</li>
+  <ul>
+    <li></li>
+  </ul>
 </ol>
 
 
