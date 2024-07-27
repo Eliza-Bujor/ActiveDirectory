@@ -257,13 +257,16 @@ Steps: <br />
     <p align="center">
           <img src="https://i.imgur.com/XD4CTjB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
       <br /> <p align="left">
+    <p align="center">
+          <img src="https://i.imgur.com/RXCxBAI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+      <br /> <p align="left">
   </ul>
   <li>Create users.</li>
   <ul>
     <li>Tools -> Active Directory Users and Computers -> myad.local -> Right click the domain -> New -> Organisational Unit -> Name it as IT.</li>
     <li>IT folder -> New -> User.</li>
     <p align="center">
-          <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+          <img src="https://i.imgur.com/wItsgnu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
       <br /> <p align="left">
   </ul>
   <li>Add the Target machine to the created domain (myad.local) and authenticate with the new user (Jason Kit).</li>
