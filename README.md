@@ -271,7 +271,22 @@ Steps: <br />
   </ul>
   <li>Add the Target machine to the created domain (myad.local) and authenticate with the new user (Jason Kit).</li>
   <ul>
-    <li></li>
+    <li>Change the Internet Protocol IPv4 (DNS Server IP) to point to the Domain controller (IP 192.168.10.7).</li>
+    <p align="center">
+          <img src="https://i.imgur.com/V3of3NR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <br /> <p align="left">
+    <li>Check if is pointing to the domain controller.</li>
+    <p align="center">
+          <img src="https://i.imgur.com/TZPKc7U.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <br /> <p align="left">
+    <li>Join the domain.</li>
+      <p align="center">
+          <img src="https://i.imgur.com/QFCUP0s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <br /> <p align="left">
+      <li>Login with the new created user within the IT section. (Jason Kit)</li>
+      <p align="center">
+          <img src="https://i.imgur.com/p4JlYlW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <br /> <p align="left">
   </ul>
 </ol>
 
@@ -281,3 +296,29 @@ Steps: <br />
 - <b>Kali Linux</b> <br>
 - <b>Sysmon</b> <br>
 - <b>Install Atomic Red Team</b> <br>
+<ol>
+  <li>Setup Static IP address on Kali Linux.(192.168.10.250)</li>
+  <ul>
+    <li>Click Ethernet Icon (top right) -> Edit Connections -> Select Settings -> IPv4 Settings.</li>
+    <p align="center">
+          <img src="https://i.imgur.com/hN19zj8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <br /> <p align="left">
+    <li>Disconnect from the Ethernet and then connect again using Wired connection 1.</li>
+    <li>Check if the configurations have been applied.</li>
+      <p align="center">
+          <img src="https://i.imgur.com/JZPOK4r.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+    <br /> <p align="left">
+  </ul>
+  <li>Update and upgrade the repositories. (sudo apt-get update && sudo apt-get upgrade)</li>
+  <li>Start setting up the attack.</li>
+  <ul>
+    <li>Create a new directory (project).</li>
+    <li>mkdir project</li>
+    <li>Install crowbar (tool that will be used to perform brute force attack).</li>
+    <li>sudo apt-get install -y crowbar</li>
+    <li>cd /usr/share/wordlists/ -> to access rokyou.txt file</li>
+    <li>Copy the rockyou.txt file to the newly created folder -> cp rockyou.txt ~/Desktop/project</li>
+    <li>Create a new txt file called passwords.txt containing the top 20 lines of the rockyou.txt file. (first 20 combinations of common passwords) -> head -n 20 rockyou.txt > passwords.txt</li>
+  </ul>
+</ol>
+
